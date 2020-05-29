@@ -16,3 +16,4 @@ for i in range(0, N+1, 1):
     for j in range(0, N+1, 1):  
         sum+=((comb(N,i)*comb(N,j))**0.5)*(math.cos(Ɵ/2)**(i+j))*(math.sin(Ɵ/2)**(2*N-i-j))*(math.e**(1j*Ψ*(j-i)))*rho[i-1,j-1]
 print(sum)
+
